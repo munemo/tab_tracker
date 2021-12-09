@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
-  
   "scripts": {
     "start": "nodemon src/app.js --exec  \"npm run lint && node\"",
     "lint": "eslint src/**/*.js"
@@ -12,6 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "cors": "^2.8.5",
     "nodemon": "^2.0.15"
   },
   "devDependencies": {
